@@ -4,7 +4,7 @@ This project is a simple image search engine using the Unsplash API, built with 
 
 ### Demo
 
-Explore the live demo [here](https://your-demo-link.com).
+Explore the live demo [here](https://sudo-charan.github.io/image_search_engine/).
 
 ### Features
 
