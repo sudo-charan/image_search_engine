@@ -45,9 +45,7 @@ This project uses the Unsplash API to fetch images. You will need an API key fro
 
 ### Example API Request
 
-\`\`\`bash
 GET https://api.unsplash.com/search/photos?page=1&query=office&client_id=YOUR_ACCESS_KEY
-\`\`\`
 
 ## Contributing
 
@@ -57,33 +55,23 @@ GET https://api.unsplash.com/search/photos?page=1&query=office&client_id=YOUR_AC
 
 ### Clone the repository
 
-\`\`\`bash
 git clone https://github.com/your-username/image_search_engine.git
-\`\`\`
 
 ### Navigate to the project directory
 
-\`\`\`bash
 cd image_search_engine
-\`\`\`
 
 ### Create your feature branch
 
-\`\`\`bash
 git checkout -b feature/AmazingFeature
-\`\`\`
 
 ### Commit your changes
 
-\`\`\`bash
 git commit -m 'Add some AmazingFeature'
-\`\`\`
 
 ### Push to the branch
 
-\`\`\`bash
 git push origin feature/AmazingFeature
-\`\`\`
 
 ### Open a pull request
 
