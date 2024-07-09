@@ -48,7 +48,7 @@ Uses the Unsplash API for image data.
 5. Push to the branch: \`git push origin feature/AmazingFeature\`
 6. Submit a pull request on GitHub.
 
-echo "## License
+## License
 
 This project is licensed under the MIT License.
 
