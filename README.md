@@ -1,5 +1,3 @@
-echo "# Image Search Engine
-
 ## Introduction
 
 This project is a simple image search engine that uses the Unsplash API to search for and display images based on user input. The web application is built with HTML, CSS, and JavaScript, and it is designed to be responsive and visually appealing.
