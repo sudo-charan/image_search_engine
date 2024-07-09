@@ -16,10 +16,13 @@ Explore the live demo [here](https://your-demo-link.com).
 ### Installation
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/sudo-charan/image_search_engine.git
+
+2. Navigate to the project directory:
+   ```bash
    cd image_search_engine
-   \`\`\`
+
 
 ### Usage
 
@@ -42,10 +45,18 @@ Uses the Unsplash API for image data.
 ### Contributing
 
 1. Fork the repository.
-2. Clone your fork: \`git clone https://github.com/your-username/image_search_engine.git\`
-3. Create a new branch: \`git checkout -b feature/AmazingFeature\`
-4. Commit your changes: \`git commit -m 'Add some AmazingFeature'\`
-5. Push to the branch: \`git push origin feature/AmazingFeature\`
+2. Clone your fork: 
+   ```bash
+    git clone https://github.com/your-username/image_search_engine.git
+3. Create a new branch:
+   ```bash
+    git checkout -b feature/AmazingFeature
+4. Commit your changes:
+   ```bash
+    git commit -m 'Add some AmazingFeature'
+5. Push to the branch:
+   ```bash
+    git push origin feature/AmazingFeature
 6. Submit a pull request on GitHub.
 
 ## License
