@@ -51,5 +51,3 @@ Uses the Unsplash API for image data.
 ## License
 
 This project is licensed under the MIT License.
-
-For details, please see the LICENSE file." > README.md
