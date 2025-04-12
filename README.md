@@ -1,64 +1,106 @@
-### Introduction
+# Image Search Engine
 
-This project is a simple image search engine using the Unsplash API, built with HTML, CSS, and JavaScript for a responsive user experience.
+A modern, responsive image search engine built with HTML, CSS, and JavaScript that allows users to search, view, and download high-quality images from Unsplash.
 
-### Demo
+![Image Search Engine Screenshot](screenshot.png)
 
-Explore the live demo [here](https://sudo-charan.github.io/image_search_engine/).
+## Features
 
-### Features
+- 🖼️ **Image Display**
+  - Responsive grid layout
+  - Lazy loading for better performance
+  - Image information (likes, downloads)
+  - Quick category buttons for popular searches
 
-- Search images by keywords
-- Responsive grid layout for results
-- 'Show more' button for additional images
-- Smooth hover effects
+- 💾 **Download Options**
+  - Multiple size options (Small, Regular, Full)
+  - Download progress tracking
+  - Visual progress bar
+  - Automatic file naming
+
+- 🎨 **Modern UI**
+  - Clean, minimalist design
+  - Purple theme with orange accents
+  - Responsive layout for all devices
+  - Smooth animations and transitions
+
+## Getting Started
+
+### Prerequisites
+
+- Web browser (Chrome, Firefox, Safari, Edge)
+- Internet connection
+- Unsplash API key (optional, for higher rate limits)
 
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/sudo-charan/image_search_engine.git
+```bash
+git clone https://github.com/yourusername/image-search-engine.git
+```
 
-2. Navigate to the project directory:
-   ```bash
-   cd image_search_engine
+2. Open `index.html` in your web browser
 
+3. (Optional) Add your Unsplash API key:
+   - Get an API key from [Unsplash Developer](https://unsplash.com/developers)
+   - Replace the API key in `script.js`:
+   ```javascript
+   const url = `https://api.unsplash.com/search/photos?page=${page}&query=${keyword}&client_id=YOUR_API_KEY&per_page=12`;
+   ```
 
-### Usage
+## Usage
 
-1. Open \`index.html\` in your web browser.
-2. Enter a keyword and click 'Search'.
-3. Click images to view on Unsplash.
-4. Click 'Show more' to load more images.
+1. **Searching Images**
+   - Enter keywords in the search box
+   - Use filters to refine your search
+   - Click category buttons for quick searches
 
-### Technologies
+2. **Viewing Images**
+   - Click on any image to view details
+   - See image statistics (likes, downloads)
+   - Navigate between images in the modal
 
-- HTML
-- CSS
-- JavaScript
-- [Unsplash API](https://unsplash.com/developers)
+3. **Downloading Images**
+   - Click the download button on any image
+   - Choose your preferred size
+   - Monitor download progress
+   - Image will save to your downloads folder
 
-### API Reference
+## Project Structure
 
-Uses the Unsplash API for image data.
+```
+image-search-engine/
+├── index.html          # Main HTML file
+├── style.css           # Styles and animations
+├── script.js           # JavaScript functionality
+└── README.md           # Project documentation
+```
 
-### Contributing
+## API Integration
 
-1. Fork the repository.
-2. Clone your fork: 
-   ```bash
-    git clone https://github.com/your-username/image_search_engine.git
-3. Create a new branch:
-   ```bash
-    git checkout -b feature/AmazingFeature
-4. Commit your changes:
-   ```bash
-    git commit -m 'Add some AmazingFeature'
-5. Push to the branch:
-   ```bash
-    git push origin feature/AmazingFeature
-6. Submit a pull request on GitHub.
+This project uses the Unsplash API to fetch images. The API provides:
+- High-quality images
+- Multiple size options
+- Image metadata
+- Search and filtering capabilities
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Unsplash](https://unsplash.com) for providing the image API
+- [Font Awesome](https://fontawesome.com) for icons
+- All contributors and users of this project
+
